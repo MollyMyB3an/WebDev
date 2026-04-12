@@ -5,28 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
       <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
 </head>
 <header>
 <div class=”main-header” >
 <h3 class=”header-info”>
-<a href=”index.html”> Variety Shop </a>
+<a href=”index.html”> The Mixed Bag </a>
 </h3>
 <nav>
 <a href=””>Home</a>
-<a href=””>Price</a>
-<a href=””>About Us</a>
+<a href="#price">Price</a>
+<a href="#about">About Us</a>
 </nav>
 </div>
 </header>
 <body>
     <br>
     <div class = "jumbotron"> 
-     <h1>Variety Shop</h1>
+     <h1>The Mixed Bag</h1>
          <p class = "first">Items Preview</p>
      </div>
      <div class="items">
         <div class="item">
-        <img src = "Items/variety-lazio.webp" alt = "Lazio 98/00 Home Kit" class="portrait" width="260px" 
+        <img src = "Items/variety-lazio.webp" alt = "Lazio 98/00 Home Kit" class="portrait" class="img" width="260px" 
          height="auto">
         <h3 class="second">Lazio 98/00 Home Kit</h3>
         </div>
@@ -42,16 +43,128 @@
         </div>
     </div>
 
-    <section>
+    <section id="price">
         <h1>Available Products</h1>
-        <table>
+        <table align = "center">
             <tr>
                 <th>Item No.</th>
                 <th>Name</th>
                 <th>Price</th>
                 <th>Image</th>
             </tr>
+            <tr>
+                <td>1</td>
+                <td>Honey Bun</td>    
+                <td>$1.50</td>
+                <td><img src = "Items/variety-honeybun.webp" alt = "Honey bun" class = "tablepic"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Yankee with no Brim</td>
+                <td>$500</td>
+                <td><img src = "Items/variety-brimless.jpg" alt = "brimless" class = "tablepic"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Gibson Les Paul Custom 1968 Ebony</td>
+                <td>$6500</td>
+                <td><img src = "Items/variety-guitar.webp" alt = "guitar" class = "tablepic"></td>
+            </tr>
         </table>
     </section> 
+    <section>
+      <h1>Subscriptions</h1>
+  <div class="container">
+    <div class="tab">
+      <div class="tab-header">
+        <div>
+         <h1 class="name">Bronze</h1>
+        </div>
+        <div>
+         <h2 class="price"> $10/month</h2>
+        </div>
+      </div>
+      <hr>
+      <ul class="list">
+        <li> 5% discount on all items </li>
+        <li> Free monthly honeybun </li>
+        <li> 5% discount on shipping fees </li>
+      </ul>
+      <button>Order Now</button>
+    </div>
+<div class="tab">
+      <div class="tab-header">
+        <div>
+         <h1 class="name">Silver</h1>
+        </div>
+        <div>
+         <h2 class="price"> $30/month</h2>
+        </div>
+      </div>
+      <hr>
+      <ul class="list">
+        <li> 10% discount on all items </li>
+        <li> Free monthly honeybun </li>
+        <li> 10% discount on shipping fees </li>
+        <li> Early access to new products </li>
+        <li> Partner discount at Baker's Bakery</li>
+      </ul>
+      <button>Order Now</button>
+  </div>
+  <div class="tab">
+      <div class="tab-header">
+        <div>
+         <h1 class="name">Gold</h1>
+        </div>
+        <div>
+         <h2 class="price"> $75/month</h2>
+        </div>
+      </div>
+      <hr>
+      <ul class="list">
+        <li> 15% discount on all items </li>
+        <li> Free monthly honeybun </li>
+        <li> Free monthly surprise package </li>
+        <li> 15% discount on shipping fees </li>
+        <li> Early access to new products </li>
+        <li> Partner discount at Baker's Bakery</li>
+      </ul>
+      <button>Order Now</button>
+      </div>
+    </div>
+</section>
+<section id="about">
+   <div class="about">
+     <div>
+       <h2 class="about"> About Us </h2> 
+       <p class="about"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at ultricies odio. Suspendisse venenatis eu magna id lobortis. Mauris id felis a ligula tempor sagittis quis ut mi. Duis semper tincidunt facilisis. Maecenas vulputate tellus sed diam aliquam aliquet. Sed vitae enim et nunc varius ornare. Sed eu odio turpis. In hac habitasse platea dictumst. Sed gravida eget quam suscipit pretium. Pellentesque ut vestibulum dui, ut auctor orci. Proin nec neque at neque porta accumsan. Fusce sodales erat et risus sodales sollicitudin. Mauris vitae justo augue. </p>
+     </div>
+     <div class="image-about">
+       <img src="Assets/angrybird.jpg" 
+       alt="About Us"
+       height="auto" class="tablepic">
+     </div>
+   </div>
+</section>
+
+<footer>
+    <div class="center-footer">
+      <div class="main-footer">
+        <div class="left-footer"> 
+          <h3 class="info-left"> <i class="fas fa-map-marked-alt"></i><b> Address</b></h3>
+          <p class="info-left"><i class="fas fa-map-pin"></i> Irony Street 1738, Tilted Towers, Listenbourg</p>
+        </div>
+        <div class="right-footer">
+          <h3 class="info-right"> <i class="fas fa-address-book"></i> <b>Contacts</b></h3>
+          <p class="info-right"><i class="fas fa-phone"></i> Phone : 90210</p>
+          <p class="info-right"><i class="fab fa-instagram-square"> Instagram</i> : @the.mixed.bag</p>
+        </div>
+      </div>
+                
+      <div class="main-footer">
+        <p class="info-center">Copyright &copy; 2026 Designed by The Mixed Bag</p>
+      </div>
+    </div>
+</footer>
 </body>
 </html>
